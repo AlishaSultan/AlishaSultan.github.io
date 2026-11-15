@@ -5,7 +5,7 @@ import { skills, certs } from "../data";
 export default function Skills() {
   return (
     <section className="section skills" id="skills">
-      <SectionHead index="04" title="Technical Skills" />
+      <SectionHead index="05" title="Technical Skills" />
 
       <div className="skills__grid">
         {skills.map((s, i) => (

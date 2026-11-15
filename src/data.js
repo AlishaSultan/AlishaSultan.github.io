@@ -105,6 +105,63 @@ export const projects = [
   },
 ];
 
+export const services = {
+  // The offer the cold-outreach emails point at. Edit freely - this block is
+  // the single source of truth for the "Websites" section.
+  eyebrow: "For shops, clinics, salons, gyms and restaurants",
+  headline: "A website your customers can actually find",
+  pitch:
+    "Most small businesses in Pakistan show up on Google Maps with great reviews and nowhere to send people. I build the missing piece: a fast, mobile-first site with your services, prices and a tap-to-WhatsApp button - live in about a week.",
+  // Phone used for the WhatsApp / call buttons in this section.
+  whatsapp: "+923434900369",
+  phoneDisplay: "+92 343 4900369",
+  priceNote: "Most projects land between PKR 50,000 and PKR 150,000 depending on page count.",
+  packages: [
+    {
+      name: "Single Page",
+      price: "PKR 50,000",
+      best: "Replacing no website at all",
+      items: [
+        "One long scrolling page",
+        "Services or menu with prices",
+        "Tap-to-call and WhatsApp buttons",
+        "Google Maps and opening hours",
+        "Live in 5-7 days",
+      ],
+    },
+    {
+      name: "Business Site",
+      price: "PKR 85,000",
+      featured: true,
+      best: "Most shops and clinics",
+      items: [
+        "Up to 5 pages",
+        "Photo gallery",
+        "Contact form straight to your inbox",
+        "Basic SEO and Google Business link",
+        "1 year hosting and SSL included",
+      ],
+    },
+    {
+      name: "Growth",
+      price: "PKR 150,000",
+      best: "Booking-led businesses",
+      items: [
+        "Up to 10 pages",
+        "Online booking or enquiry flow",
+        "Blog or offers section you can edit",
+        "Urdu and English versions",
+        "Two rounds of revisions",
+      ],
+    },
+  ],
+  steps: [
+    ["01", "Free preview", "I build a homepage concept for your business first. No cost, nothing owed."],
+    ["02", "You decide", "Like it, we go ahead. Don't, keep the preview and we part friends."],
+    ["03", "Live in a week", "50% to start, 50% the day it goes live. You own the domain and files."],
+  ],
+};
+
 export const skills = [
   { group: "Backend", items: ["PHP", "Laravel", "MySQL", "MongoDB", "REST APIs", "Python"] },
   { group: "Frontend", items: ["React", "Vue.js", "JavaScript", "jQuery", "HTML5", "CSS3"] },

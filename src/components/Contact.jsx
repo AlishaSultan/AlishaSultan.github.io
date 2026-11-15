@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className="section contact" id="contact">
       <Reveal className="contact__inner">
-        <span className="section__index">05</span>
+        <span className="section__index">06</span>
         <h2 className="contact__title">Let's build something<br /><span>worth shipping.</span></h2>
         <p className="contact__sub">
           Open to backend, fintech, and AI-augmented engineering roles. Drop a message — I usually reply fast.
